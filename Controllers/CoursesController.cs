@@ -6,13 +6,13 @@ namespace MyCourse.Controllers
     {
         public IActionResult Index()  //action, va in quella dove ci sono tutti i dati richiesti
         {
-             return Content("Sono Index");
+             return View();
         }
 
         public IActionResult Detail(string id) //deve restituire il dettaglio di un corso
         {
 
-            return Content($"sono ID, ho ricevuto l'ID {id}");
+            return View();
         }           
     }
 }

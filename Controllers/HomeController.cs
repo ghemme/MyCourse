@@ -6,7 +6,7 @@ namespace MyCourse.Controllers
     {
        public IActionResult Index()  //action, va in quella dove ci sono tutti i dati richiesti
         {
-             return Content("Sono Index della home");
+             return View();
         }
         
     }
