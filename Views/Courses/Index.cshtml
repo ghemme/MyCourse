@@ -2,6 +2,7 @@
     <h1>Catalogo dei Corsi</h1>
     @for(int i=1; i<=10; i++)
     {
+    <hr>
     <div class="row">
       <div class="col-md-1">
           <img src="~/logo.png" width="50px">
@@ -10,17 +11,17 @@
           <h2>Titolo del corso</h2>
           <h4>di Nome Autore</h4>
       </div>
-      <div class="col-md-2">
+      <div class="col-md-2 rating">
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
       </div>
-      <div class="col-md-2">
+      <div class="col-md-2 price">
           EUR 10.99<br /><s>EUR 12.99</s>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 d-glex align-items-center">
            <a class="btn btn-outline-primary" asp-action="Detail" asp-route-id="5">Dettaglio del corso 5</a>
       </div>
     </div>
